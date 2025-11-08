@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: url(https://picsum.photos/1920/1080);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.jokenpo {
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+button {
+    
+    font-size: 30px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+#pedra {
+    background-color: #f44336;
+}
+#papel {
+    background-color: #4CAF50;
+}
+#tesoura {
+    background-color: #2196F3;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.placar1 span {
+    color: #f44336;
+}
+.placar2 span {
+    color: #2196F3;
+}
+
+.reset {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.reset:hover {
+    opacity: 0.8;
+}
